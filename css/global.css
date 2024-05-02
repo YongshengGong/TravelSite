@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+.nav{
+    display:flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    height:3.5rem;
+    position: fixed;
+    top:0; /*Dont forget to set this after set position to fix*/
+    width:100%;
+}
+.nav__logo{
+    color:#335576;
+    margin-left:5.5rem;
+}
+.nav__list{
+    display:flex;
+    list-style:none;
+    margin-right:4.5rem;
+}
+.nav__item{
+    padding:1rem;
+}
