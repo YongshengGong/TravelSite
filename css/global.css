@@ -14,6 +14,7 @@ body{
 .nav__logo{
     color:#335576;
     margin-left:5.5rem;
+    font-weight: bold;
 }
 .nav__list{
     display:flex;
@@ -22,4 +23,53 @@ body{
 }
 .nav__item{
     padding:1rem;
+}
+
+footer{
+    height:15rem;
+    display: flex;
+    background-color: #FEFAF5;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#335576;
+    padding:3rem;
+    box-sizing:border-box;
+    margin-top:6rem;
+}
+.footer__contact, .footer__hours, .footer__social{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer__hours{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__hours-wholeWeek{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__contact-title,
+.footer__hours-title,
+.footer__social-title{
+    font-weight: bold;
+    margin: 0rem;
+}
+.footer__hours-wholeWeek-MondayToFriday-title,
+.footer__hours-wholeWeek-Saturday-title,
+.footer__hours-wholeWeek-Sunday-title,
+.footer__contact-email-title
+{
+  margin-bottom:1rem;
+  color: #DB7A4E;
+  font-size:9px;
+}
+.footer__social-icon-instagram,
+.footer__social-icon-facebook,
+.footer__social-icon-twitter
+{
+height:1.5rem;
+margin-right:1rem;
 }

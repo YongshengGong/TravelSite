@@ -41,7 +41,8 @@
 }
 
 .recommendations__title{
-    margin:3rem 0 2rem 5rem;
+    margin:3rem 0 2rem 5.5rem;
+    color:#335576;
 }
 
 .recommendations__cards{
@@ -51,8 +52,8 @@
 }
 
 .recommendations__card{
-    width:16rem;
-    height:24rem;
+    width:14.1rem;
+    height:23.1rem;
     border:1px solid rgba(0, 0, 0, 0.2);
     background-size:cover;/*If the picture's aspect ratio doesnt match box's aspect ratio, then part of the picture would still be cropped even if background-size:cover is applied.*/
     border-radius: 5px;
@@ -61,9 +62,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding:1rem;
+    padding:1rem 1.2rem 1rem 1.5rem;
     color:white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .hawaii{
