@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     height: 30rem;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
 }
 
 .hero__left {
@@ -28,7 +28,6 @@
 .hero__image {
     height: 23rem;
     margin: 1rem 6rem 2rem 4rem;
-    
 }
 .hero__button{
     border-radius: 1rem;
@@ -49,6 +48,7 @@
     padding:0 9rem;/*works with space-evenly👇🏻*/
     display: flex;
     justify-content: space-evenly;/*works with padding👆🏻*/
+    margin-bottom:6rem;
 }
 
 .recommendations__card{
