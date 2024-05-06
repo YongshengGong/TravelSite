@@ -1,42 +1,99 @@
-.hawaii{
-    height:40rem;
-    width:100%;
+.hawaii {
+    height: 40rem;
+    width: 100%;
     background-image: url("../assets/Images/hawaii.jpg");
-    background-size:cover;
-    background-position:center 52%;
+    background-size: cover;
+    background-position: center 52%;
     background-repeat: no-repeat;
     margin-top: 3.5rem;
-}
-.iceland{
-    height:40rem;
-    width:100%;
-    background-image: url("../assets/Images/iceland.jpg");
-    background-size:cover;
-    background-position:center 52%;
-    background-repeat: no-repeat;
-    margin-top: 3.5rem;
-}
-.greece{
-    height:40rem;
-    width:100%;
-    background-image: url("../assets/Images/greece.jpg");
-    background-size:cover;
-    background-position:center 52%;
-    background-repeat: no-repeat;
-    margin-top: 3.5rem;
-}
-.hawaii__title,.iceland__title,.greece__title{
-   font-size:4rem;
-   color:white;
-}
-.scheduleCards{
-    height:17rem;
     display: flex;
-    justify-content: space-evenly;
-}
-.scheduleCard{
-    height:100%;
-    width:14rem;
-    background-color: white;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.iceland {
+    height: 40rem;
+    width: 100%;
+    background-image: url("../assets/Images/iceland.jpg");
+    background-size: cover;
+    background-position: center 52%;
+    background-repeat: no-repeat;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greece {
+    height: 40rem;
+    width: 100%;
+    background-image: url("../assets/Images/greece.jpg");
+    background-size: cover;
+    background-position: center 52%;
+    background-repeat: no-repeat;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hawaii__title,
+.iceland__title,
+.greece__title {
+    font-size: 5.5rem;
+    color: white;
+    margin-left: 5rem;
+}
+
+.scheduleCards {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.scheduleCard {
+    height: 100%;
+    width: 14rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Friday,
+.Saturday,
+.Sunday {
+    width: 90%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.Friday-todo,
+.Saturday-todo,
+.Sunday-todo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.Friday-todo>*,
+.Saturday-todo>*,
+.Sunday-todo>* {
+    background-color: #FEFAF5;
+    width: 90%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

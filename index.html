@@ -13,12 +13,12 @@
 <body>
     <header>
         <nav class="nav">
-            <div class="nav__logo"><a href="">Travel Site</a> </div>
+            <div class="nav__logo"><a class="nav__logo-link" href="">Travel Site</a> </div>
             <ul class="nav__list">
-                <li class="nav__item">Home</li>
-                <li class="nav__item"><a href="./pages/hawaii.html">Hawaii</a></li>
-                <li class="nav__item"><a href="./pages/iceland.html">Iceland</a></li>
-                <li class="nav__item"><a href="./pages/greece.html">Greece</a></li>
+                <li class="nav__item underlined">Home</li>
+                <li class="nav__item"><a class="nav__item-link" href="./pages/hawaii.html">Hawaii</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="./pages/iceland.html">Iceland</a></li>
+                <li class="nav__item"><a class="nav__item-link" href="./pages/greece.html">Greece</a></li>
             </ul>
         </nav>
     </header>
@@ -42,9 +42,15 @@
         <section class="recommendations">
             <h2 class="recommendations__title">Recommendations</h2>
             <div class="recommendations__cards">
-                <div class="recommendations__card hawaii">Hawaii</div>
-                <div class="recommendations__card iceland">Iceland</div>
-                <div class="recommendations__card greece">Greece</div>
+                <a href="./pages/hawaii.html" style="text-decoration:none">
+                    <div class="recommendations__card hawaii">Hawaii</div>
+                </a>
+                <a href="./pages/iceland.html" style="text-decoration:none">
+                    <div class="recommendations__card iceland">Iceland</div>
+                </a>
+                <a href="./pages/greece.html" style="text-decoration:none">
+                    <div class="recommendations__card greece">Greece</div>
+                </a>
             </div>
         </section>
     </main>

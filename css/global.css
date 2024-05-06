@@ -1,74 +1,103 @@
-body{
-    margin:0;
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
 }
-.nav{
-    display:flex;
+
+.nav {
+    display: flex;
     background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
-    height:3.5rem;
+    height: 3.5rem;
     position: fixed;
-    top:0; /*Dont forget to set this after set position to fix*/
-    width:100%;
-}
-.nav__logo{
-    color:#335576;
-    margin-left:5.5rem;
-    font-weight: bold;
-}
-.nav__list{
-    display:flex;
-    list-style:none;
-    margin-right:4.5rem;
-}
-.nav__item{
-    padding:1rem;
+    top: 0;
+    width: 100%;
 }
 
-footer{
-    height:15rem;
+.nav__logo {
+    margin-left: 5.5rem;
+    font-weight: bold;
+}
+
+.nav__logo-link {
+    text-decoration: none;
+    color: #335576;
+}
+
+.nav__list {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 4.5rem;
+}
+
+.nav__item {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav__item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.underlined {
+    border-bottom: 2px solid #DB7A4E;
+}
+
+footer {
+    height: 15rem;
     display: flex;
     background-color: #FEFAF5;
     justify-content: space-evenly;
     align-items: center;
-    color:#335576;
-    padding:3rem;
-    box-sizing:border-box;
+    color: #335576;
+    padding: 3rem;
+    box-sizing: border-box;
 }
-.footer__contact, .footer__hours, .footer__social{
-    height:100%;
+
+.footer__contact,
+.footer__hours,
+.footer__social {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.footer__hours{
-    width:30%;
+
+.footer__hours {
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
-.footer__hours-wholeWeek{
+
+.footer__hours-wholeWeek {
     display: flex;
     justify-content: space-between;
 }
+
 .footer__contact-title,
 .footer__hours-title,
-.footer__social-title{
+.footer__social-title {
     font-weight: bold;
     margin: 0rem;
 }
+
 .footer__hours-wholeWeek-MondayToFriday-title,
 .footer__hours-wholeWeek-Saturday-title,
 .footer__hours-wholeWeek-Sunday-title,
-.footer__contact-email-title
-{
-  margin-bottom:1rem;
-  color: #DB7A4E;
-  font-size:9px;
+.footer__contact-email-title {
+    margin-bottom: 1rem;
+    color: #DB7A4E;
+    font-size: 9px;
 }
+
 .footer__social-icon-instagram,
 .footer__social-icon-facebook,
-.footer__social-icon-twitter
-{
-height:1.5rem;
-margin-right:1rem;
+.footer__social-icon-twitter {
+    height: 1.5rem;
+    margin-right: 1rem;
 }
